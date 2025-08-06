@@ -20,8 +20,10 @@ git branch -M "main" - renomear a branch
 
 git remote add origin https://github.com/rafalelas/TestandoGit.git
 meio q linka o repositorio que criamos manualmente no basch com o repositorio do github. origin é o nome do repositorio
+apenas uma vez na primeira vez precisa do remote pois está estabelecendo a conexão remota.
 
 git push -U origin main - adiciona arquivos no repositorio do github. envia os commits do local para o 'remoto'.
+também não precisa mais do -u depois da primeira vez usada. pode utilizar apenas git push origin main para os próximos commits
 
 *Projeto desenvolvido na faculdade de Eng. de Software onde o usuário pode criar equipes *
 

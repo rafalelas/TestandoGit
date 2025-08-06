@@ -25,6 +25,9 @@ apenas uma vez na primeira vez precisa do remote pois está estabelecendo a cone
 git push -U origin main - adiciona arquivos no repositorio do github. envia os commits do local para o 'remoto'.
 também não precisa mais do -u depois da primeira vez usada. pode utilizar apenas git push origin main para os próximos commits
 
+git checkout -b "nome da branch nova" - criação de uma nova branch e automaticamente já é direcionada para ela
+
+
 *Projeto desenvolvido na faculdade de Eng. de Software onde o usuário pode criar equipes *
 
 até aqui foi alterado
